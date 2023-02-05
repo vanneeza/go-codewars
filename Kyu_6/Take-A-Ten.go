@@ -28,7 +28,7 @@ if lenght not 10, I will give return false
 
 */
 
-package TakeATen
+package Kyu_6
 
 import "fmt"
 
@@ -51,7 +51,7 @@ func IsValidWalk(walk []rune) bool {
 		case "w":
 			x--
 		}
-		fmt.Println(walking)
+		fmt.Print(walking)
 	}
 	return x == 0 && y == 0
 }
