@@ -1,17 +1,33 @@
 package main
 
 import (
-	Kyu_6 "github.com/vanneeza/go-codewars/Kyu_6"
-
-	makeafunction "github.com/vanneeza/go-codewars/Kyu_7"
+	"github.com/vanneeza/go-codewars/Kyu_6"
+	"github.com/vanneeza/go-codewars/Kyu_7"
+	"github.com/vanneeza/go-codewars/Kyu_8"
 )
 
 // ///////---------------------------------
+//
 
 func main() {
+	// Kyu 8 Beginner Series
+	Kyu_8.Past(0, 1, 1)
 
-	// Make A function
-	makeafunction.Arithmetic(5, 7, "add")
+	// Kyu 8 Invert
+	q := []int{-5, 2, -3}
+	Kyu_8.Invert(q)
+
+	// Kyu 8 EvenOrOdd
+	Kyu_8.EvenOrOdd(10)
+
+	// Kyu 8 Reversed Strings
+	Kyu_8.Solution("world")
+
+	//----------------------------------------------------------------------------------
+	// Kyu_7 : Make A function
+	Kyu_7.Arithmetic(5, 7, "add")
+
+	//------------------------------------------------------------------------------------
 
 	// Kyu 6 : Take A ten
 	roads := []rune{'n', 's', 'e', 'w', 's', 'w', 'e', 'n', 'w', 's'}

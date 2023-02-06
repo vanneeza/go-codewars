@@ -29,7 +29,7 @@ What will i do ?
 	}
 */
 
-package makeafunction
+package Kyu_7
 
 import (
 	"fmt"

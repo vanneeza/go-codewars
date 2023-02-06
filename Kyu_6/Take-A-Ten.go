@@ -51,7 +51,7 @@ func IsValidWalk(walk []rune) bool {
 		case "w":
 			x--
 		}
-		fmt.Print(walking)
+		fmt.Println(walking)
 	}
 	return x == 0 && y == 0
 }
